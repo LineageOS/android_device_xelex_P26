@@ -1,4 +1,4 @@
-# Android Device tree for the Zinwa Q25
+# Android Device tree for the Zinwa P26
 
 ```
 #
