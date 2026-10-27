@@ -1,2 +1,6 @@
 # Leds
 genfscon sysfs /devices/platform/soc/11eb0000.i2c/i2c-2/2-0020/leds/keyboard-backlight    u:object_r:sysfs_leds:s0
+
+# Proc
+genfscon proc /sub_spk_switch    u:object_r:proc_hodafone:s0
+genfscon proc /tp_enable         u:object_r:proc_hodafone:s0
