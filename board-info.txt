@@ -1,1 +1,1 @@
-require board=q20_v12_factory|q20_v1_factory|Q25
+require board=q30_v1_factory|P26

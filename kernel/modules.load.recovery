@@ -10,7 +10,7 @@ monitor_hang.ko
 mtk_printk_ctrl.ko
 log_store.ko
 nvmem_mtk-devinfo.ko
-panel-q20-hd720-lcm-dsi-vdo.ko
+panel-q30-hd1440-lcm-dsi-vdo.ko
 mtk_wdt.ko
 sec-rng.ko
 device-apc-common.ko
@@ -62,6 +62,7 @@ cmdq_helper_inf.ko
 mtk-mml.ko
 mtk_panel_ext.ko
 mediatek-drm.ko
+mediatek-drm-gateic.ko
 aee_rs.ko
 mmprofile.ko
 mtk-uart-apdma.ko
@@ -92,6 +93,8 @@ blocktag.ko
 pidmap.ko
 mtk-pmic-keys.ko
 mtk-kpd.ko
+aw95016.ko
+synaptics_dsx_keyboard.ko
 regulator-vibrator.ko
 i2c-mt65xx.ko
 rtc-mt6397.ko
@@ -129,15 +132,14 @@ rt_pd_manager.ko
 rt-regmap.ko
 mt6358_battery.ko
 pwm-mtk-disp.ko
-bbqX0kbd.ko
 leds-mtk.ko
 leds-mtk-disp.ko
 leds-mtk-pwm.ko
-ocp2131_drv.ko
 extcon-mtk-usb.ko
 tcpci_late_sync.ko
 mt6577_auxadc.ko
 cache-parity.ko
+rt4831a_drv.ko
 mtk_battery_oc_throttling.ko
 mtk_low_battery_throttling.ko
 pmic_lbat_service.ko

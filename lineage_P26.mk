@@ -8,16 +8,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile.
-$(call inherit-product, device/xelex/Q25/device.mk)
+$(call inherit-product, device/xelex/P26/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_Q25
-PRODUCT_DEVICE := Q25
+PRODUCT_NAME := lineage_P26
+PRODUCT_DEVICE := P26
 PRODUCT_MANUFACTURER := Xelex
 PRODUCT_BRAND := Xelex
-PRODUCT_MODEL := Zinwa Q25
+PRODUCT_MODEL := Zinwa P26
 
 PRODUCT_GMS_CLIENTID_BASE := android-hyst
 

@@ -8,6 +8,10 @@
     <dimen name="lock_icon_padding">22px</dimen>
 
     <dimen name="keyguard_security_container_padding_top">0dp</dimen>
+
+    <!-- Margin around the various security views -->
     <dimen name="keyguard_security_view_top_margin">0dp</dimen>
+
+    <!-- Minimum bottom margin under the security view -->
     <dimen name="keyguard_security_view_bottom_margin">28dp</dimen>
 </resources>
