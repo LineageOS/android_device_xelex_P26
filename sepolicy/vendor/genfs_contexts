@@ -1,0 +1,2 @@
+# Leds
+genfscon sysfs /devices/platform/soc/11eb0000.i2c/i2c-2/2-0020/leds/keyboard-backlight    u:object_r:sysfs_leds:s0
