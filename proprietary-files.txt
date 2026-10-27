@@ -429,6 +429,10 @@ vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
 
+# Firmware
+vendor/firmware/passport_display.bin
+vendor/firmware/passport_keyboard.bin
+
 # NVRAM
 vendor/lib/libcustom_nvram.so
 vendor/lib64/libcustom_nvram.so
