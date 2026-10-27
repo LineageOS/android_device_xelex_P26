@@ -437,9 +437,6 @@ vendor/firmware/passport_keyboard.bin
 vendor/lib/libcustom_nvram.so
 vendor/lib64/libcustom_nvram.so
 
-# RIL
-vendor/etc/apdb/APDB_MT6789___W2409
-
 # Thermal
 vendor/etc/thermal/thermal.conf
 vendor/etc/thermal/thermal_policy_00.conf
