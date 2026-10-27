@@ -9,6 +9,7 @@ mtk-vow.ko
 mtk-scp-vow.ko
 mdp_drv_mt6789.ko
 mt63xx-oc-debug.ko
+synaptics_dsx_keyboard.ko
 clk-dbg-mt6789.ko
 mtk-ssc.ko
 mtk-ssc-dbg-v2.ko

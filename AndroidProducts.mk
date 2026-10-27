@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Q25.mk
+    $(LOCAL_DIR)/lineage_P26.mk
