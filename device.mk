@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResDevice \
+    LineageSDKResDevice \
     SystemUIOverlayTarget
 
 # Soong namespaces
