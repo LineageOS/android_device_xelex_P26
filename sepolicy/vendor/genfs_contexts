@@ -4,3 +4,6 @@ genfscon sysfs /devices/platform/soc/11eb0000.i2c/i2c-2/2-0020/leds/keyboard-bac
 # Proc
 genfscon proc /sub_spk_switch    u:object_r:proc_hodafone:s0
 genfscon proc /tp_enable         u:object_r:proc_hodafone:s0
+
+# Wakeup
+genfscon sysfs /devices/platform/soc/11eb0000.i2c/i2c-2/2-0020/wakeup    u:object_r:sysfs_wakeup:s0
