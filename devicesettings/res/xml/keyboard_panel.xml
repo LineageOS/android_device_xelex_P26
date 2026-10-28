@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="keyboard_settings"
+    android:title="@string/keyboard_settings_title">
+
+    <PreferenceCategory
+        android:key="navigation_mode"
+        android:title="@string/navigation_mode_title">
+
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="navigation_mode_dpad"
+            android:title="@string/navigation_mode_dpad_title"
+            android:summary="@string/navigation_mode_dpad_summary"
+            android:persistent="false" />
+
+        <com.android.settingslib.widget.SelectorWithWidgetPreference
+            android:key="navigation_mode_touch"
+            android:title="@string/navigation_mode_touch_title"
+            android:summary="@string/navigation_mode_touch_summary"
+            android:persistent="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Keyboard setting strings -->
+    <string name="keyboard_settings_title" translatable="true">Touch keyboard</string>
+
+    <string name="navigation_mode_title" translatable="true">Navigation Mode</string>
+    <string name="navigation_mode_dpad_title" translatable="true">DPAD Mode</string>
+    <string name="navigation_mode_dpad_summary" translatable="true">Move cursor, Select items</string>
+    <string name="navigation_mode_touch_title" translatable="true">Touch Input Mode</string>
+    <string name="navigation_mode_touch_summary" translatable="true">Scrolling, Gestures</string>
+
+    <!-- Setup wizard integration -->
+    <string name="setupwizard_title" translatable="true">Keyboard navigation</string>
+    <string name="setupwizard_summary" translatable="true">The keyboard can also respond to swipes. Choose how it behaves below. You can change this later in Settings.</string>
+    <string name="setupwizard_next" translatable="true">Next</string>
+</resources>

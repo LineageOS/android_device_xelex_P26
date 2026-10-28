@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<com.google.android.setupdesign.GlifLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/setup_wizard_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:sudDescriptionText="@string/setupwizard_summary">
+
+    <RadioGroup
+        android:id="@+id/navigation_mode_group"
+        style="@style/SudContentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/navigation_mode_dpad"
+            style="?attr/sudItemTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/navigation_mode_dpad_title" />
+
+        <TextView
+            style="?attr/sudItemSummaryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="32dp"
+            android:text="@string/navigation_mode_dpad_summary" />
+
+        <RadioButton
+            android:id="@+id/navigation_mode_touch"
+            style="?attr/sudItemTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/navigation_mode_touch_title" />
+
+        <TextView
+            style="?attr/sudItemSummaryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="32dp"
+            android:text="@string/navigation_mode_touch_summary" />
+    </RadioGroup>
+</com.google.android.setupdesign.GlifLayout>
