@@ -10,6 +10,10 @@ $(call inherit-product, device/xelex/mt6789-common/common.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Device settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/idc/touch_kbd.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/touch_kbd.idc
