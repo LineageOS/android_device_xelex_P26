@@ -16,6 +16,23 @@
       "message": "Needs changes before it goes in, with proper keymappings",
       "revId": "d6058b41496a541b548d98f326b025e2b454cfef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1fe8bb4_cf34b67a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-30T04:45:51Z",
+      "side": 1,
+      "message": "the keymappings seem fine from a keylayout file pulled, only these are intentionally left out since these don\u0027t exist on the passport, only on the others like Priv, Key1 and Key2 ones\n\n```\nkey 42    SHIFT_LEFT\nkey 54    SHIFT_RIGHT\nkey 56    ALT_LEFT\nkey 58    CAPS_LOCK\nkey 100   ALT_RIGHT\nkey 125   META_LEFT\n```",
+      "revId": "d6058b41496a541b548d98f326b025e2b454cfef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
