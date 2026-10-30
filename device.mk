@@ -12,7 +12,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Keylayout
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/idc/touch_kbd.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/touch_kbd.idc
+    $(LOCAL_PATH)/configs/idc/synaptics_dsx_keyboard.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/synaptics_dsx_keyboard.idc \
+    $(LOCAL_PATH)/configs/idc/touch_kbd.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/touch_kbd.idc \
+    $(LOCAL_PATH)/configs/keylayout/synaptics_dsx_keyboard.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/synaptics_dsx_keyboard.kl
 
 # Overlays
 PRODUCT_PACKAGES += \
